@@ -977,7 +977,7 @@ static void didReceivedIpChangedNotification(CFNotificationCenterRef center, voi
     
     
     
-    [[VPNAppNet shared] getSkyVPNIPs:option exludeStr:[self assembleExcludeStrWithOption:option] completeHandler:^(HttpRespData *data) {
+    [[VPNAppNet shared] getbitVPNIPs:option exludeStr:[self assembleExcludeStrWithOption:option] completeHandler:^(HttpRespData *data) {
         if (completionHandler) {
             completionHandler(data);
         }
@@ -990,7 +990,7 @@ static void didReceivedIpChangedNotification(CFNotificationCenterRef center, voi
 
 
 
-    [[VPNAppNet shared] getSkyVPNIPs:option exludeStr:[self assembleExcludeStrWithOption:option] completeHandler:^(HttpRespData *data) {
+    [[VPNAppNet shared] getbitVPNIPs:option exludeStr:[self assembleExcludeStrWithOption:option] completeHandler:^(HttpRespData *data) {
         [weakself dealWithHttpData:data option:option];
     }];
 
