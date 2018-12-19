@@ -2,7 +2,7 @@
 //  IpDataManager.m
 //  Pods
 //
-//  Created by dev: ai on 2017/10/17.
+//  Created by dev on 2017/10/17.
 //
 //
 
