@@ -3,7 +3,7 @@
 //  VPNSDK
 //
 //  Created by SK-Pan on 2017/2/16.
-//  Copyright © 2017年 SkyVPN. All rights reserved.
+//  Copyright © 2017年 BITVPN. All rights reserved.
 //
 
 #import "VPNOptions.h"
