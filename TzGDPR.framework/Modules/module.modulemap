@@ -1,0 +1,6 @@
+framework module TzGDPR {
+  umbrella header "TzGDPR.h"
+
+  export *
+  module * { export * }
+}
