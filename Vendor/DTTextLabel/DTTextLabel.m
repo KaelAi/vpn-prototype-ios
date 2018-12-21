@@ -13,7 +13,7 @@
 {
     self = [super init];
     if (self) {
-        self.fontTextColor = [UIColor colorWithRed:1.0 green:168/255.0 blue:0.0 alpha:1.0];
+        self.fontTextColor = [UIColor colorWithRed:1.0 green:168/255.0 blue:168/255.0 alpha:1.0];
     }
     
     return self;
